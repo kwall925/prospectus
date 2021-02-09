@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
 
-* { box-sizing: border-box; }
+* { 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+ }
 
 body {
-	background: rgb(230, 227, 209);
 	font-family: 'Sintony', sans-serif;
+	background: rgb(242, 242, 237);
 }
 
 nav	{
@@ -27,12 +31,51 @@ nav > a:hover {
  text-transform: none;
   }
 
+  h4{
+  	font-size: 1.6em;
+  	margin-bottom: 0.6em;
+  	justify-self: center;
+  	border-bottom: 5px solid rgb(122, 36, 209);
+  }
 
-#main {
-	height: 95vh;
+.wrapper {
+	height: 100vh;
 	width: 100%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 }
+
+#main {
+	display: flex;
+	width: auto;
+	padding: 2.5em;
+	background: rgb(230, 227, 209);
+	box-shadow: -2px 2px 15px 0 rgba(0, 0, 0, 0.5);
+	flex-direction: column;
+}
+
+.goal { margin: 0.6em; }
+
+.goal > label {
+	border-bottom: 1px solid red;
+}
+
+.astronaut {
+	height: 37em;
+	position: absolute;
+	z-index: -1;
+	top: 10px;
+	right: 50px;
+	opacity: 0.3;
+}
+
+.chemical {
+	height: 37em;
+	position: absolute;
+	z-index: -1;
+	bottom: 10px;
+	left: 50px;
+	opacity: 0.3;
+	transform: rotate(45deg):
+	}
