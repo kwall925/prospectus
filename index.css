@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+/* 	font-family: 'Berkshire Swash', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 
-* { 
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -23,14 +25,14 @@ nav	{
 }
 
 .logo {
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Arizonia', cursive;
 	text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
 	font-weight: lighter;
 	font-style: italic;
 	font-size: 2.7em;
 }
 
-nav > a { 
+nav > a {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
