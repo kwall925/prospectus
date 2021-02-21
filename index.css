@@ -20,16 +20,17 @@ nav	{
 	justify-content: space-around;
 	padding: 0.5em 0;
 	align-items: center;
-	background: rgb(122, 36, 209);
-	border-bottom: 4px solid rgb(255, 69, 69);
+	background: rgb(36, 38, 158);
+	/* background: rgb(122, 36, 209); */
+	border-bottom: 5px solid rgb(89, 189, 255);
+	/* 255, 69, 69 */
 }
 
 .logo {
 	font-family: 'Arizonia', cursive;
 	text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
 	font-weight: lighter;
-	font-style: italic;
-	font-size: 2.7em;
+	font-size: 3em;
 }
 
 nav > a {
@@ -39,7 +40,8 @@ nav > a {
 	 }
 
 nav > a:hover {
- color: rgb(255, 69, 69);
+ color: rgb(89, 189, 255);
+ /* color: rgb(255, 69, 69); */
  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
  text-transform: none;
 }
@@ -50,18 +52,18 @@ nav > a:hover {
   }
 
 .active {
-	color: rgb(255, 69, 69);
+	color: rgb(89, 189, 255);
 	text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
 	border-bottom: 3px solid white;
 }
 
 .active:hover {
 	text-transform: none;
-	color: rgb(255, 69, 69);
+	color: rgb(89, 189, 255);
 }
 
   hr {
-  	border: 5px solid rgba(122, 36, 209, 0.8);
+  	border: 5px solid rgba(36, 38, 158, 0.8);
   	font-size: 2em;
   	width: 70%;
   }
