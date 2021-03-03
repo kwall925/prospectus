@@ -5,6 +5,8 @@ List all of your CRUD activities before coding them in VUE
 * monthly or quarterly design changes
   (like field notes does it)
 
+* my-prospectus.com
+
 UI
 
   -axe chopping load screen
