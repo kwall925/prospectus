@@ -7,9 +7,8 @@
   <title>prospectus</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
   <link rel="stylesheet" href="index.css">
-
+  <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -24,18 +23,26 @@
 		<a href="#">About</a>
 	</nav>
 	<section class="wrapper">
-		<!-- <img src="images/astronaut/astronaut-01.svg" alt="astronaut" class='astronaut'>
-		<img src="images/chemical/chemical-01.svg" alt="chemical" class='chemical'> -->
+    
 	  <div id='main'>
-	  	<h4>February 2021<hr></h4>
+	  	<h4>April 2021<hr></h4>
 	  	<div class="goal">
-	  		<input type='radio'>
-	  		<label>finish portfolio</label>
-        <!-- <input type='checkbox' style="margin-left: 1.2em;">
-        <label>1g cocaine</label> -->
+
+        <div>
+          <input type="text" placeholder="Add a new goal"/>
+          <button class="addGoal">Add Goal</button>
+        </div>
+
+        <div class="addedGoal">
+          <!-- user goals added here via input/js -->
+        </div>
+
+        <form class="goalForm" action="index.html" method="post">
+          <label for="goal">Goal</label>
+        </form>
+
 	  	</div>
 	  </div>
   </section>
-  <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -104,6 +104,20 @@ nav > a:hover {
 	flex-direction: column;
 }
 
+/* popup form */
+.goalForm {
+	height: 750px;
+	width: 650px;
+	display: flex;
+	visibility: hidden;
+	background: grey;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -375px;
+	margin-left: -325px
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 650px) {
 	#main {
 		width: 70vw;
@@ -115,22 +129,3 @@ nav > a:hover {
 .goal { margin: 0.6em; }
 
 .goal > label { border-bottom: 1px solid rgb(255, 69, 69); }
-
-.astronaut {
-	height: 37em;
-	position: absolute;
-	z-index: -1;
-	top: 10px;
-	right: 50px;
-	opacity: 0.3;
-}
-
-.chemical {
-	height: 37em;
-	position: absolute;
-	z-index: -1;
-	bottom: 10px;
-	left: 50px;
-	opacity: 0.3;
-	transform: rotate(45deg):
-	}
