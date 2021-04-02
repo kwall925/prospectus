@@ -104,18 +104,22 @@ nav > a:hover {
 	flex-direction: column;
 }
 
-/* popup form */
+
+/*                                 POPUP FORM                                           */
 .goalForm {
+	visibility: hidden;
+	position: fixed;
 	height: 750px;
 	width: 650px;
-	display: flex;
-	visibility: hidden;
-	background: grey;
-	position: fixed;
 	top: 50%;
 	left: 50%;
 	margin-top: -375px;
-	margin-left: -325px
+	margin-left: -325px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+	background: grey;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 650px) {

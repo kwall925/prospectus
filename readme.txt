@@ -7,6 +7,9 @@ List all of your CRUD activities before coding them in VUE
 UI
 
 
+  blur background:
+    https://www.freecodecamp.org/news/glassmorphism-design-effect-with-html-css/
+
   -user interface: think
   of charles schwab, but with better
   color and design fundamentals
