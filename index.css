@@ -104,6 +104,18 @@ nav > a:hover {
 	flex-direction: column;
 }
 
+/*                                 FROM JS                                           */
+
+#list {
+	display: flex;
+	flex-direction: row;
+}
+
+#trash {
+	height: 32px;
+	cursor: pointer;
+}
+
 
 /*                                 POPUP FORM                                           */
 .goalForm {
@@ -121,6 +133,16 @@ nav > a:hover {
 	padding: 2em;
 	background: grey;
 }
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: blue;
+	font-weight: 900;
+	cursor: pointer;
+}
+/*                                 MEDIA QUERY FOR BETTER MOBILE READABILITY                                         */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 650px) {
 	#main {

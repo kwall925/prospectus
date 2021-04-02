@@ -29,18 +29,21 @@
 	  	<div class="goal">
 
         <div>
-          <input type="text" placeholder="Add a new goal" id="userInp"/>
+          <input type="text" placeholder="Add a new goal" id="userInp" minlength=1/>
           <button class="addGoal">Add Goal</button>
         </div>
 
         <div class="addedGoal">
           <!-- user goals added here via input/js -->
+          <ul id="newGoal"></ul>
         </div>
 
         <form class="goalForm" action="index.html" method="post">
+            <div class="close">X</div>
             <h4 id='goalTitle'></h4>
             <label for="goal">Goal</label>
             <textarea id="description" placeholder="enter description here" rows="10" cols="70"></textarea>
+            <button type="submit">Submit</button>
         </form>
 
 	  	</div>
